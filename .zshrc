@@ -100,6 +100,12 @@ export YARN_CONF_DIR=$HADOOP_COMMON_HOME/etc/hadoop
 #Activator
 export ACTIVATOR_HOME=/usr/lib/activator
 
+#Pycharm
+export PYCHARM=/home/tomas/Dev/IDES/pycharm-community-4.0.5
+
+#IntelliJ IDEA
+export INTELLIJ=/home/tomas/Dev/IDES/idea-IC-139.224.1
+
 #PATH
-export PATH=$PATH:$JAVA_HOME/bin:$SCALA_HOME/bin:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$ACTIVATOR_HOME
+export PATH=$PATH:$JAVA_HOME/bin:$SCALA_HOME/bin:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$ACTIVATOR_HOME:$PYCHARM/bin:$INTELLIJ/bin
 
