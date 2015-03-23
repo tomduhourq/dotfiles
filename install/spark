@@ -1,0 +1,6 @@
+1 - Download latest release from https://spark.apache.org/downloads.html
+2 - Add SPARK_HOME to PATH
+3 - On spark folder: build/sbt package
+4 - cp spark-env.sh.template and set SCALA_HOME
+5 - cp lof4j.properties.template and set ERROR to INFO
+6 - On spark folder: build/sbt clean assembly
