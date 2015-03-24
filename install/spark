@@ -1,6 +1,8 @@
 1 - Download latest release from https://spark.apache.org/downloads.html
-2 - Add SPARK_HOME to PATH
-3 - On spark folder: build/sbt package
-4 - cp spark-env.sh.template and set SCALA_HOME
-5 - cp lof4j.properties.template and set INFO to ERROR
-6 - On spark folder: build/sbt clean assembly
+    and extract to any folder.
+2 - Add SPARK_HOME/bin to PATH in your .bashrc/.zshrc.
+3 - Inside spark directory run: build/sbt package.
+4 - From conf/ cp spark-env.sh.template and set SCALA_HOME
+5 - Also cp log4j.properties.template and set INFO to ERROR to reduce details
+    when inside the console.
+6 - Inside spark folder run: build/sbt clean assembly
