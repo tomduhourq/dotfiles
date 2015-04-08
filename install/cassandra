@@ -1,0 +1,12 @@
+1- Download cassandra-server from http://cassandra.apache.org/download/
+2- $ tar -zxvf apache-cassandra-$VERSION.tar.gz
+3- $ cd apache-cassandra-$VERSION
+4- Creation of logs:
+   $ sudo mkdir -p /var/log/cassandra
+   $ sudo chown -R `whoami` /var/log/cassandra
+   $ sudo mkdir -p /var/lib/cassandra
+   $ sudo chown -R `whoami` /var/lib/cassandra
+
+5- Add CASSANDRA_HOME to PATH
+6- start server with cassandra -f
+7- start cql with cqlsh with server up
