@@ -10,3 +10,5 @@
 5- Add CASSANDRA_HOME to PATH
 6- start server with cassandra -f
 7- start cql with cqlsh with server up
+
+NOTES: if at any point cqlsh refuses with a connection shutdown on port 9160 -> rm -Rf ~/.cassandra
