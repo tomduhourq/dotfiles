@@ -1,0 +1,4 @@
+sudo apt-get python-dev
+sudo apt-get python-pip
+sudo pip install theFuck
+Change alias in .zshrc (see .zshrc)
