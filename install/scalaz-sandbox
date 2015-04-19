@@ -1,0 +1,6 @@
+sbt
+set scalaVersion := "2.11.6"
+set libraryDependencies += "org.scalaz" % "scalaz-core_2.11" % "7.1.1"
+set initialCommands += "import scalaz._, Scalaz._"
+session save
+console

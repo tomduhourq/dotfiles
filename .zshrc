@@ -106,6 +106,9 @@ export ACTIVATOR_HOME=/usr/lib/activator
 #Spark
 export SPARK_HOME=/home/tomas/Dev/Spark
 
+#Cassandra
+export CASSANDRA_HOME=/home/tomas/Dev/apache-cassandra-2.1.4
+
 #Pycharm
 export PYCHARM=/home/tomas/Dev/IDES/pycharm-community-4.0.5
 
@@ -113,5 +116,5 @@ export PYCHARM=/home/tomas/Dev/IDES/pycharm-community-4.0.5
 export INTELLIJ=/home/tomas/Dev/IDES/idea-IC-139.224.1
 
 #PATH
-export PATH=$PATH:$JAVA_HOME/bin:$SCALA_HOME/bin:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$ACTIVATOR_HOME:$PYCHARM/bin:$INTELLIJ/bin:$SPARK_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin:$SCALA_HOME/bin:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$ACTIVATOR_HOME:$PYCHARM/bin:$INTELLIJ/bin:$SPARK_HOME/bin:$CASSANDRA_HOME/bin
 
