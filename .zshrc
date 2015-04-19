@@ -80,6 +80,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#theFuck alias
+alias fuck='$(thefuck $(fc -ln -1))'
+
 #JAVA
 #export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
