@@ -5,6 +5,9 @@ a single node implementation this should suffice.
 ``` 
 $ ssh-keygen -t rsa -P ''
 $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+```
+Get Hadoop (versions may vary in the future)
+```
 $ wget http://apache.dattatec.com/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz
 $ tar xfz hadoop-2.6.0.tar.gz
 $ sudo mv hadoop-2.6.0 /usr/local/hadoop
