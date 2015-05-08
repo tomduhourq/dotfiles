@@ -1,0 +1,6 @@
+sbt
+set scalaVersion := "2.11.6"
+set libraryDependencies += "io.reactivex" %% "rxscala" % "x.y.z"
+set initialCommands += "import rx.lang.scala._, scala.concurrent.duration._"
+save session
+console
