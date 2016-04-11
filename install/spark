@@ -4,5 +4,5 @@
 3 - Inside spark directory run: build/sbt package.
 4 - From conf/ cp spark-env.sh.template and set SCALA_HOME
 5 - Also cp log4j.properties.template and set INFO to ERROR to reduce details
-    when inside the console.
+    when inside the console (rootCategory).
 6 - Inside spark folder run: build/sbt clean assembly
