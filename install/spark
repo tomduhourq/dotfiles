@@ -1,7 +1,7 @@
 1 - Download latest release from https://spark.apache.org/downloads.html
     and extract to any folder.
 2 - Add SPARK_HOME/bin to PATH in your .bashrc/.zshrc.
-3 - Inside spark directory run: build/sbt package.
+3 - Inside spark directory run: build/sbt package -Dscala2.11 --> if you want to build for scala 2.11
 4 - From conf/ cp spark-env.sh.template and set SCALA_HOME
 5 - Also cp log4j.properties.template and set INFO to ERROR to reduce details
     when inside the console (rootCategory).
