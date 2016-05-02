@@ -1,0 +1,13 @@
+- name.desktop file on ~/.local/share/applications
+- inside the file paste content:
+
+[Desktop Entry]
+Name= *FILL IN*
+Comment= *FILL IN*
+Exec="path" %F
+MimeType=text/plain;
+Terminal=false
+Type=Application
+Icon=path-to-image
+Categories=tags-separated-by;
+
